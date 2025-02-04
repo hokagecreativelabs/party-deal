@@ -7,9 +7,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        coolvetica: ['Coolvetica Rg', 'sans-serif'],
+        satoshi: ['Satoshi Variable', 'sans-serif'],
+        sans: ['Inter', 'Helvetica', 'Arial', 'sans-serif'],
       },
     },
   },
